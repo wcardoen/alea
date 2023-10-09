@@ -1,0 +1,17 @@
+README.rst
+pyproject.toml
+Alea.egg-info/PKG-INFO
+Alea.egg-info/SOURCES.txt
+Alea.egg-info/dependency_links.txt
+Alea.egg-info/entry_points.txt
+Alea.egg-info/requires.txt
+Alea.egg-info/top_level.txt
+alea/__init__.py
+alea/aleainput.py
+alea/auxdate.py
+alea/extractCSV.py
+alea/getfile.py
+alea/getusernumbers.py
+alea/main.py
+alea/mydate.py
+alea/mydateerror.py

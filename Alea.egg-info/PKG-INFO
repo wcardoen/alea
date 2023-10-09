@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Alea
+Version: 0.1a1
+Summary: Alea Package: program to check lottery numbers
+Author-email: "Wim R.M. Cardoen" <wcardoen@gmail.com>
+Keywords: lottery,Powerball,MegaMillions
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: docutils>=0.7
+
+# Development install (Locally)
+python3 -m pip install -e Alea-0.1a1
+
+# Create Zipped & .whl file
+python3 -m pip install --upgrade build
+# Create sdist directory
+cd Alea-0.1a1
+python3 -m build
+
+
+# To use 
+python3 alea.py --file wim.txt  --type MM  --begin 06/01/2016

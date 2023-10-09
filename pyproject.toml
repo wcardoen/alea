@@ -1,0 +1,23 @@
+# https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Alea"                                                  
+version = "0.1a1"                                              
+description = "Alea Package: program to check lottery numbers" 
+readme = "README.rst"
+requires-python = ">=3.8"  
+keywords = ["lottery", "Powerball", "MegaMillions"]
+authors = [ {name = "Wim R.M. Cardoen", email = "wcardoen@gmail.com"}]
+dependencies = [ "docutils>=0.7" ]
+classifiers = [
+        "Programming Language :: Python :: 3"
+        ]
+
+[project.scripts]
+alea = "alea.main:start"  
+
+[tools.distutils.bdist_wheel]
+universal = true
